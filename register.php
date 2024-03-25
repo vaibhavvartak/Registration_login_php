@@ -1,5 +1,6 @@
 <?php
 include 'config.php';
+session_start();
 
 // Retrieve form data
 $name = $_POST['name'];
